@@ -1,0 +1,1 @@
+using System.Security.Claims; namespace SocialX.Api; public static class UserClaimsExtensions { public static int GetUserId(this ClaimsPrincipal user) { var id = user.FindFirstValue(ClaimTypes.NameIdentifier); return int.Parse(id!); } }
