@@ -1,1 +1,1 @@
-# SocialX_DotNet7_WithSolution
+# SocialX_WithSolution
